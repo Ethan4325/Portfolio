@@ -1,0 +1,726 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+a{
+    color: #fff;
+}
+
+header{
+   background-color: #00092a;
+   height: 50px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+}
+
+body{
+  background-color: #03103d;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+section{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.logo{
+   font-size: 26px;
+   color: #ffff;
+   position: absolute;
+   left: 0;
+   top: 30%;
+}
+
+.logo-2{
+   font-size: 26px;
+   color: #043bff;
+   position: absolute;
+   left: 4%;
+   top: 30%;
+}
+
+.menu-bar a.hello{
+   margin-right: 20px;
+   position: absolute;
+   left: 50%;
+   top: 30%;
+}
+
+.bx-home{
+   position: absolute;
+   left: 48%;
+   top: 30%;
+}
+
+.menu-bar a.bye{
+   margin-right: 20px;
+   position: absolute;
+   left: 60%;
+   top: 30%;
+}
+
+.bx-question-mark{
+   position: absolute;
+   left: 58%;
+   top: 30%;
+}
+
+.menu-bar a.night{
+   margin-right: 20px;
+   position: absolute;
+   left: 70%;
+   top: 30%;
+}
+
+.bx-cube{
+   position: absolute;
+   left: 68%;
+   top: 30%;
+}
+
+.menu-bar a.time{
+   margin-right: 20px;
+   position: absolute;
+   left: 83%;
+   top: 30%;
+}
+
+.bxl-product-hunt{
+   position: absolute;
+   left: 81.4%;
+   top: 30%;
+}
+
+.menu-bar a.eye{
+   margin-right: 20px;
+   position: absolute;
+   left: 93%;
+   top: 30%;
+}
+
+.bxs-contact{
+   position: absolute;
+   left: 91.5%;
+   top: 30%;
+}
+
+.menu-bar a:hover{
+   background-color: #fff;
+   color: #4285f4;
+   padding: 10px 5px 5px 10px;
+   border-radius: 50px;
+   transition: 0.5s;
+}
+
+
+p.salut{
+   font-size: 16px;
+   font-family: serif;
+}
+p.name{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#ABOUT{
+   scroll-margin-top: 50px;
+}
+
+#SKILLS{
+   scroll-margin-top: 50px;
+}
+
+#PROJECTS{
+   scroll-margin-top: 50px;
+}
+
+#CONTACT{
+   scroll-margin-top: 50px;
+}
+
+.title{
+   color: #fff;
+   font-size: 24px;
+   position: absolute;
+   top: 30%;
+   left: 10%;
+}
+
+.modify{
+   color: #043bff;
+   font-size: 30px;
+}
+
+.first{
+   font-size: 17px;
+   line-height: 2;
+   position: absolute;
+   top: 40%;
+   left: 10%;
+}
+
+.img{
+   position: absolute;
+   left: 63%;
+   top: 20%;
+   width: 500px;
+   height: 500px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.second{
+   position: absolute;
+   top: 110%;
+   left: 20%;
+   line-height: 2.5;
+}
+
+b{
+   font-size: 18px;
+   color: #043bff;
+   text-decoration: underline;
+}
+
+.z{
+   position: absolute;
+   top: 230%;
+   left: 20%;
+}
+
+.html5{
+   width: 150px;
+   position: absolute;
+   top: 214%;
+   left: 16.5%;
+
+}
+
+.y{
+   position: absolute;
+   top: 230%;
+   left: 50%;
+}
+
+.css-3{
+   width: 131px;
+   position: absolute;
+   top: 214%;
+   left: 46.5%;
+}
+
+.x{
+   position: absolute;
+   top: 230%;
+   left: 80%;
+}
+
+.pyth{
+   width: 130px;
+   position: absolute;
+   top: 214%;
+   left: 78%;
+
+}
+
+.w{
+   position: absolute;
+   top: 280%;
+   left: 20%;
+}
+
+.ph{
+   width: 150px;
+   position: absolute;
+   top: 265%;
+   left: 15.5%;
+
+}
+
+.v{
+   position: absolute;
+   top: 280%;
+   left: 52.5%;
+}
+
+.R{
+   width: 150px;
+   position: absolute;
+   top: 265%;
+   left: 46.5%;
+
+}
+
+.skill-bar-a{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 235%;
+   left: 12%;
+}
+
+.skill-per-a{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: html-5 2s;
+   width: 40%;
+}
+
+@keyframes html-5{
+   from{
+      width: 0;
+   }
+   to{
+      width: 40%;
+   }
+}
+
+.skill-bar-b{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 235%;
+   left: 42%;
+}
+
+.skill-per-b{
+   height: 14px;
+   background-color:  #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: css-3 2s;
+   width: 40%;
+}
+
+@keyframes css-3{
+   from{
+      width: 0;
+   }
+   to{
+      width: 40%;
+   }
+}
+
+.skill-bar-c{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 235%;
+   left: 74%;
+}
+
+.skill-per-c{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: pyth 2s;
+   width: 30%;
+}
+
+@keyframes pyth{
+   from{
+      width: 0;
+   }
+   to{
+      width: 30%;
+   }
+}
+
+.skill-bar-d{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 284%;
+   left: 12%;
+}
+
+.skill-per-d{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: ph 2s;
+   width: 20%;
+}
+
+@keyframes ph{
+   from{
+      width: 0;
+   }
+   to{
+      width: 20%;
+   }
+}
+
+.skill-bar-e{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 284%;
+   left: 42%;
+}
+
+.skill-per-e{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: R 2s;
+   width: 10%;
+}
+
+@keyframes R{
+   from{
+      width: 0;
+   }
+   to{
+      width: 10%;
+   }
+}
+
+.enter{
+   position: absolute;
+   top: 8%;
+   left: 6%;
+   font-size: 24px;
+}
+
+#name{
+   border: 1px solid black;
+   width: 700px;
+   height: 33px;
+   border-radius: 10px;
+   position: absolute;
+   top: 7.5%;
+   left: 14%;
+}
+
+.enter-2{
+   position: absolute;
+   top: 28%;
+   left: 6%;
+   font-size: 24px;
+}
+
+#email{
+   border: 1px solid black;
+   width: 700px;
+   height: 33px;
+   border-radius: 10px;
+   position: absolute;
+   top: 27%;
+   left: 14%;
+}
+
+.enter-3{
+   position: absolute;
+   top: 48%;
+   left: 6%;
+   font-size: 24px;
+}
+
+#phone{
+   border: 1px solid black;
+   width: 700px;
+   height: 33px;
+   border-radius: 10px;
+   position: absolute;
+   top: 47.5%;
+   left: 17%;
+}
+
+.enter-4{
+   position: absolute;
+   top: 72%;
+   left: 6%;
+}
+
+#comment{
+   border: 1px solid black;
+   width: 700px;
+   height: 120px;
+   border-radius: 10px;
+   position: absolute;
+   top: 66%;
+   left: 18%;
+}
+
+.box{
+   border: 2px solid white;
+   box-shadow: 5px 5px;
+   width: 900px;
+   height: 600px;
+   position: absolute;
+   left: 16%;
+   top: 405%;
+}
+
+.button{
+   border: 1px solid white;
+   border-radius: 8px;
+   background-color: ”#cc7529;
+   color: white;
+   font-size: 14px;
+   width: 130px;
+   height: 40px;
+   position: absolute;
+   top: 484%;
+   left: 47%;
+}
+
+.button:hover{
+   background-color: #fc7703;
+}
+.shift{
+   position: absolute;
+   left: 44%;
+}
+.project-items{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 3rem;
+}
+
+.project-card1{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card1 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 310%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-overlay{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 310%;
+   width: 27.2%;
+   height: 34.7%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-overlay:hover{
+   background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-overlay .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-overlay .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+
+.project-card2{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card2 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 310%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-over{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 310%;
+   width: 27.2%;
+   height: 34.7%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-over:hover{
+   background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-over .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-over .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+
+.project-card3{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card3 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 355%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-ov{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 355%;
+   width: 27.2%;
+   height: 34.7%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-ov:hover{
+   background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-ov .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-ov .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+
+.project-card4{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card4 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 355%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-o{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 355%;
+   width: 27.2%;
+   height: 34.7%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-o:hover{
+    background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-o .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-o .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
